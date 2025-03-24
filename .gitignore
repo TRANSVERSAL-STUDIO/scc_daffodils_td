@@ -1,0 +1,28 @@
+# TouchDesigner .gitignore
+
+# Ignore backup files
+*.toe.bak
+
+# Ignore crash autosave files
+*.toe.crash
+
+# Ignore lock files
+*.lock
+
+# Ignore temporary files
+*.tmp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore .temp folder
+.temp/
+
+# Ignore files that are often user-specific, such as local configuration files
+local/
+
+# Other files and folders to consider ignoring depending on your project:
+# - Rendered output
+# - External libraries that should be installed separately
+# - Personal editor settings
+.DS_Store
